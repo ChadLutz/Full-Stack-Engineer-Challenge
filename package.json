@@ -2,6 +2,11 @@
     "name": "full-stack-engineer-challenge",
     "version": "1.0.0",
     "scripts": {
-      "start": "node getUsers.js"
+        "start": "ts-node getUsers.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^24.0.3",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
     }
-  }
+}
