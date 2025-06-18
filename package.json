@@ -1,0 +1,7 @@
+{
+    "name": "full-stack-engineer-challenge",
+    "version": "1.0.0",
+    "scripts": {
+      "start": "node getUsers.js"
+    }
+  }
