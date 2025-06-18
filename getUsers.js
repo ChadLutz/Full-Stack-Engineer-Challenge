@@ -80,8 +80,6 @@ function fetch(host, path, postData , callMethod, callback) {
 
         combinedData.push(currentUserData);
 
-        console.log(currentUserData);
-
         fs.writeFileSync('users.json', JSON.stringify(combinedData, null, 2));
         console.log('Combined data saved to users.json');
     });
